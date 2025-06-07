@@ -8,10 +8,10 @@ receivers:
   - name: 'email'
     email_configs:
     - smarthost: 'smtp.gmail.com:587'
-      auth_username: 'your-from-email'
-      auth_password: 'your-app-password-without-space'
-      from: 'your-from-email'
-      to: 'your-to-email'
+      auth_username: 'rajasekharb974@gmail.com'
+      auth_password: 'ogitmhesuvbnvjts'
+      from: 'rajasekharb974@gmail.com'
+      to: 'rajasekharb974@gmail.com'
       headers:
           subject: 'Prometheus Mail Alerts'
 inhibit_rules:
